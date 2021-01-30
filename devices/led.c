@@ -1,5 +1,6 @@
 //
-// tämä versio ArduinoAtmega 2560 24.3.2017 ktmakva
+// tï¿½mï¿½ versio ArduinoAtmega 2560 24.3.2017 ktmakva
+//
 //
 
 #include <avr/io.h>

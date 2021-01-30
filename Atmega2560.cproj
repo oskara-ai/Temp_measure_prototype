@@ -23,15 +23,15 @@
     <AsfVersion>3.1.3</AsfVersion>
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.39.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.39.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <CacheFlash>true</CacheFlash>
     <ProgFlashFromRam>true</ProgFlashFromRam>
@@ -122,6 +122,15 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="application\application.c">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="application\AppTask.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="application\Functions.h">
+      <SubType>compile</SubType>
+    </Compile>
+    <Compile Include="application\Variables.h">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="devices\adc.c">
